@@ -41,3 +41,20 @@ example
 # generated native folders
 /ios
 /android
+
+# environment and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+secret.json
+
+# additional signing files
+*.keystore
+*.cer
+
+# build artifacts and temporary files
+DerivedData/
+build/
+tmp/
+*.tmp
